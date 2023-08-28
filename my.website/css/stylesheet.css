@@ -1,0 +1,162 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 header \{\
+  text-align: center;\
+  color: lightblue;\
+  text-shadow: -1px 0 #ea1179, 0 1px #241468, 1px 0 #f79bd3, 0 -1px #fbd85d;\
+  border-style: ridge;\
+  border-color: lightblue;\
+  background-color: #ea1179;\
+  animation-name: slideright;\
+  animation-duration: 1s;\
+  animation-timing-function: ease-in;\
+  animation-delay: 0s;\
+  animation-iteration-count: 1;\
+  animation-direction: normal;\
+\}\
+\
+h1 \{\
+  color: lightblue;\
+  background-color: slateblue;\
+  padding: 2px 10px;\
+  text-decoration: none;\
+  border: 3px lightblue;\
+  border-style: solid;\
+  text-align: center;\
+  font-family: budmo;\
+  font-size: 45px;\
+  animation-name: change;\
+  animation-duration: 5s;\
+\}\
+\
+h1:hover \{\
+  background-color: yellow;\
+\}\
+\
+.left \{\
+  text-align: left;\
+\}\
+\
+.right \{\
+  text-align: right;\
+  margin-bottom: -200px;\
+  margin-right: 20px;\
+\}\
+\
+body \{\
+  background-image: url(sunset.jpeg);\
+  background-color: violet;\
+  background-size: 2500px 2300px;\
+  background-repeat: no-repeat;\
+  text-shadow: -1px 0 #ea1179, 0 1px #241468, 1px 0 #f79bd3, 0 -1px #fbd85d;\
+  color: lightblue;\
+\}\
+\
+footer \{\
+  text-shadow: -1px 0 #ea1179, 0 1px #241468, 1px 0 #f79bd3, 0 -1px #fbd85d;\
+  color: lightblue;\
+  text-align: center;\
+  border: lightblue;\
+  border-style: ridge;\
+  background-color: #ea1179;\
+  background-image: url(sand.png);\
+\}\
+\
+a \{\
+  color: white;\
+\}\
+\
+nav \{\
+  display: flex;\
+  justify-content: space-evenly;  \
+\}\
+\
+nav li \{\
+  list-style: none;\
+  display: inline-block;\
+  font-weight: 600;\
+\}\
+\
+nav li a \{\
+  color: lightblue;\
+  background-color: slateblue;\
+  padding: 2px 10px;\
+  border-radius: 25px;\
+  text-decoration: none;\
+  font-size: 28px;\
+  border: 3px lightblue;\
+  border-style: solid;\
+  transition: all 0.2s ease-in-out;\
+  animation-name: change;\
+  animation-duration: 5s;\
+\}\
+\
+.nav ul \{\
+  list-style: none;\
+\}\
+\
+nav li a:hover \{\
+  background-color: yellow;\
+  color: slateblue;\
+\}\
+\
+input \{\
+  background-color: white;\
+\}\
+\
+input:hover \{\
+  background-color: lightskyblue;\
+\}\
+\
+.traits \{\
+  background-color: slateblue;\
+  border: lightblue;\
+  border-style: ridge;\
+\}\
+\
+@font-face \{\
+  font-family: sea script;\
+  src: url("seaweed-script/SeaweedScript-Regular.ttf");\
+  font-family: budmo;\
+  src: url("budmo jiggler.otf");\
+\}\
+\
+h1:hover \{\
+  color: slateblue;\
+  transform: translateY(-10px);\
+\}\
+\
+.aboutme \{\
+  background-color: slateblue;\
+  border: lightblue;\
+  border-style: ridge;\
+\}\
+\
+@keyframes change \{\
+  0%   \{background-color: lightblue;\}\
+  50%  \{background-color: yellow;\}\
+  100% \{background-color: slateblue;\}\
+\}\
+\
+@media only screen and (orientation: landscape) \{\
+  body \{\
+    background-color: slateblue;\
+  \}\
+\}\
+\
+\}\
+\
+@keyframes slideright \{\
+  from \{\
+  transform: translateX(-2000px);\
+  \}  \
+  to \{\
+  transform: translateX(0px);\
+  \}\
+\}\
+}
