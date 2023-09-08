@@ -32,44 +32,44 @@ h1:hover {
 }
 
 .left {
-  text-align: left;\
-\}\
-\
-.right \{\
-  text-align: right;\
-  margin-bottom: -200px;\
-  margin-right: 20px;\
-\}\
-\
-body \{\
-  background-image: url(sunset.jpeg);\
-  background-color: violet;\
-  background-size: 2500px 2300px;\
-  background-repeat: no-repeat;\
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+  margin-bottom: -200px;
+  margin-right: 20px;
+}
+
+body {
+  background-image: url(sunset.jpeg);
+  background-color: violet;
+  background-size: 2500px 2300px;
+  background-repeat: no-repeat;
+  text-shadow: -1px 0 #ea1179, 0 1px #241468, 1px 0 #f79bd3, 0 -1px #fbd85d;
+  color: lightblue;
+}
+
+footer {
   text-shadow: -1px 0 #ea1179, 0 1px #241468, 1px 0 #f79bd3, 0 -1px #fbd85d;\
-  color: lightblue;\
-\}\
-\
-footer \{\
-  text-shadow: -1px 0 #ea1179, 0 1px #241468, 1px 0 #f79bd3, 0 -1px #fbd85d;\
-  color: lightblue;\
-  text-align: center;\
-  border: lightblue;\
-  border-style: ridge;\
-  background-color: #ea1179;\
-  background-image: url(sand.png);\
-\}\
-\
-a \{\
-  color: white;\
-\}\
-\
-nav \{\
-  display: flex;\
-  justify-content: space-evenly;  \
-\}\
-\
-nav li \{\
+  color: lightblue;
+  text-align: center;
+  border: lightblue;
+  border-style: ridge;
+  background-color: #ea1179;
+  background-image: url(sand.png);
+}
+
+a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+nav li {
   list-style: none;\
   display: inline-block;\
   font-weight: 600;\
